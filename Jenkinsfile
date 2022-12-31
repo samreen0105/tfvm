@@ -12,7 +12,7 @@ ARM_TENANT_ID="7453a23a-f546-4af3-8d42-5b4505f1049a"
 stages{
 stage('git checkout'){
 steps {
-git credentialsId: 'tfvm', url: 'https://github.com/samreen0105/terraform.git'
+git credentialsId: 'tfvm', url: 'https://github.com/samreen0105/tfvm.git'
 }
 }
 stage("Azure Terraform Login") {
